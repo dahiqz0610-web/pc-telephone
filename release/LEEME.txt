@@ -1,0 +1,13 @@
+﻿PC USB - Aplicacion Windows + Android
+
+INSTALACION AUTOMATICA EN SEGUNDO PLANO
+1. Extrae todo el ZIP en una carpeta fija; no muevas los archivos despues.
+2. Ejecuta una vez Activar_instalacion_automatica.bat. El agente se ejecutara oculto al iniciar sesion en Windows.
+3. Activa Depuracion USB y acepta la autorizacion en cada celular.
+4. Al conectar un celular autorizado, el agente instala PC USB si falta o actualiza una version anterior. No hay que abrir terminal ni la ventana principal.
+5. Abre PC_USB.exe cuando quieras elegir celulares y compartir la pantalla de la PC.
+
+La aplicacion de Windows debe estar abierta durante la transmision de pantalla.
+La APK se incluye en este ZIP y tambien se puede descargar por separado.
+Ejecuta Desactivar_instalacion_automatica.bat para quitar el inicio automatico.
+Registro del agente: %LOCALAPPDATA%\PC USB\instalacion.log
